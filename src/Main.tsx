@@ -30,7 +30,7 @@ class Main extends React.Component<Props, State> {
                     <Route exact path={'/'} component={StartPage} />
                     <Route replace path={"/films"} component={Films} />
                     <Route replace path={"/people"} children={({match}) => match && <People/>}/>
-                    <Route replace path={"/planets"} render={(props)=>(<Planets {...props} />)}/>
+                    <Route replace path={"/planets"} component={Planets}/>
                     <Route replace path={"/species"} component={Species}/>
                     <Route replace path={"/starships"} component={Starships}/>
                     <Route replace path={"/vehicles"} component={Vehicles}/>

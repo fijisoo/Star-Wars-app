@@ -18,7 +18,6 @@ interface State {
         results: {}[]
     },
     filmUrl: string
-
 }
 
 class Films extends React.Component<Props, State> {
@@ -34,7 +33,6 @@ class Films extends React.Component<Props, State> {
                 results: [{}]
             },
             filmUrl: ''
-
         }
     }
 
@@ -44,10 +42,6 @@ class Films extends React.Component<Props, State> {
         });
     }
 
-    setFilmUrl(filmUrl: string){
-        // this.setState({filmUrl: filmUrl});
-    }
-
     render() {
         if(this.state.isLoaded){
             console.log(this.state.data);
@@ -55,8 +49,8 @@ class Films extends React.Component<Props, State> {
                 <div>
                     <p>Films works!</p>
                     <LinkToSingle filmNames={this.state.data.results}/>
-                    <Route path={'/films/:film'} render={({match}) => {
-                        return (<SingleFilm {...match} filmData={this.state.data.results}/>)
+                    <Route path={'/films/:single'} render={({match}) => {
+                        return (<SingleFilm {...match} data={this.state.data.results}/>)
                     }}/>
                 </div>
             )

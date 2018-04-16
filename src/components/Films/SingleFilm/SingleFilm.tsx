@@ -1,7 +1,7 @@
 import React from 'react';
-import { log } from 'util';
+import { FetchImage } from './../../../HOC/FetchImage';
 
-interface filmData  {
+interface filmData {
     title: string,
     episode_id: number,
     producer: string,
@@ -16,45 +16,40 @@ interface filmData  {
 
 function getFilmData(data: filmData[], match) {
     return data.filter((data2: filmData): filmData => {
-        if (data2.title == match.film) {
+        if (data2.title == match.single) {
             return data2;
         }
     })
 }
 
 interface Props {
-    filmData: filmData[],
-    params: {film: string},
-    setFilmUrl: (string)=>void
-
+    data: filmData[],
+    params: { componentName: string },
+    setFilmUrl: (string) => void,
+    img: string
 }
 
 interface State {
-
+    img: string
 }
 
 class SingleFilm extends React.Component<Props, State> {
 
-    componentDidMount() {
-        console.log('COMPONNET WILL MOUNT HERE ');
-        // fetch('/api/search?name=Radiohead', {
-        //     method: "post",
-        //     headers: {
-        //         'Accept': 'application/json',
-        //         'Content-Type': 'application/json'
-        //     }
-        // }).then((data) => {
-        //     data.json().then((data2) => {
-        //         console.log(data2);
-        //     })
-        // })
+    componentDidMount(){
+        this.setState({img: this.props.img});
+    }
+
+    state = {
+        img: ''
     }
 
     render() {
-        let data = getFilmData(this.props.filmData, this.props.params)[0];
+        console.log('jaki jest state', this.state);
+        let data = getFilmData(this.props.data, this.props.params)[0];
         return (
             <div>
                 <h1>Title: {data.title}</h1>
+                <img src={this.state.img} alt=""/>
                 <h4>Episode No: {data.episode_id}</h4>
                 <h4>Opening... : {data.opening_crawl}</h4>
                 <h4>Producer: {data.producer}</h4>
@@ -69,4 +64,4 @@ class SingleFilm extends React.Component<Props, State> {
     }
 }
 
-export default SingleFilm;
+export default FetchImage.passComponent(SingleFilm);

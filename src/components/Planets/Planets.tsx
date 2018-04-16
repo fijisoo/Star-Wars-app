@@ -1,43 +1,60 @@
 import React from 'react';
-import { HOC } from '../../HOC/Logger'
+import SinglePlanet from './SinglePlanet/SinglePlanet'
+import { Router, Route, NavLink } from 'react-router-dom';
+import LinkToSingle from './LinkToSingle';
+import { HOC } from '../../HOC/Logger';
+import { Utils } from '../../utils/Utils';
 
 interface Props {
-    cokolwiek: string
+    img: string
 }
 
 interface State {
-    isLoading: boolean
+    isLoaded: boolean,
+    data: {
+        count: number,
+        next: number,
+        previous: number,
+        results: {}[]
+    },
+    filmUrl: string
 }
 
 class Planets extends React.Component<Props, State> {
 
-    constructor(props){
+    constructor(props) {
         super(props);
 
-        this.state={
-            isLoading: true
+        this.state = {
+            isLoaded: false,
+            data: {
+                count: null,
+                next: null,
+                previous: null,
+                results: [{}]
+            },
+            filmUrl: ''
         }
     }
 
     componentDidMount(){
-        fetch('https://swapi.co/api/films/').then((data)=>{
-            console.log('fetch w DID MOUNT');
-            data.json().then((data)=>{
-                console.log('isloading false')
-                this.setState({isLoading: false});
-            })
-        })
-        console.log('DID MOUNT');
+        Utils.fetchData('planets').then((data) => {
+            this.setState({isLoaded: true, data: data});
+        });
     }
 
     render() {
-        if(!this.state.isLoading){
+        if (this.state.isLoaded) {
             return (
                 <div>
-                    <p>Plantes works!</p>
+                    <p>Films works!</p>
+                    <LinkToSingle filmNames={this.state.data.results}/>
+                    <Route path={'/planets/:single'} render={({match}) => {
+                        return (<SinglePlanet {...match} componentName={this.state.data.results}/>)
+                    }}/>
                 </div>
             )
-        }else{
+        } else {
             return (
                 <div>
                     <p>Loading....</p>
