@@ -1,35 +1,40 @@
 import React from 'react';
+import { Link, Router, Route } from 'react-router-dom'
+import LinkToSingle from './LinkToSingle';
+import Person from './Person/Person';
 import { HOC } from '../../HOC/Logger';
+import { Utils } from '../../utils/Utils';
+import { FetchData } from '../../HOC/SectionData';
 
 interface Props {
-    costam: string
+    data: {
+        count: number,
+        next: number,
+        previous: number,
+        results: {}[]
+    }
 }
 
 interface State {
-    people: {}
+
 }
 
 class People extends React.Component <Props, State> {
     constructor(props) {
         super(props);
-        this.state = {
-            people: {}
-        }
-
-    }
-
-    componentDidMount(){
-
     }
 
     render() {
-        return (
-            <div>
-                <p>People works!</p>
-            </div>
-        )
+            return (
+                <div>
+                    <p>People works!</p>
+                    <LinkToSingle people={this.props.data}/>
+                    <Route path={'/people/:single'} render={({match}) => {
+                        return <Person {...match} data={this.props.data}/>
+                    }}/>
+                </div>
+            )
     }
-
 }
 
-export default HOC.ppHOC(People);
+export default FetchData.passComponent(People, 'people');

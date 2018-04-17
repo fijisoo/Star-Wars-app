@@ -6,7 +6,7 @@ import { HOC } from '../../HOC/Logger';
 import { Utils } from '../../utils/Utils';
 
 interface Props {
-    img: string
+
 }
 
 interface State {
@@ -21,7 +21,6 @@ interface State {
 }
 
 class Planets extends React.Component<Props, State> {
-
     constructor(props) {
         super(props);
 
@@ -38,9 +37,7 @@ class Planets extends React.Component<Props, State> {
     }
 
     componentDidMount(){
-        Utils.fetchData('planets').then((data) => {
-            this.setState({isLoaded: true, data: data});
-        });
+
     }
 
     render() {
@@ -50,7 +47,7 @@ class Planets extends React.Component<Props, State> {
                     <p>Films works!</p>
                     <LinkToSingle filmNames={this.state.data.results}/>
                     <Route path={'/planets/:single'} render={({match}) => {
-                        return (<SinglePlanet {...match} componentName={this.state.data.results}/>)
+                        return (<SinglePlanet {...match} data={this.state.data.results}/>)
                     }}/>
                 </div>
             )
@@ -66,4 +63,4 @@ class Planets extends React.Component<Props, State> {
 
 }
 
-export default HOC.ppHOC(Planets);
+export default HOC.ppHOC(Planets, 'planets');
