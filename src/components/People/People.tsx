@@ -30,7 +30,7 @@ class People extends React.Component <Props, State> {
                     <p>People works!</p>
                     <LinkToSingle people={this.props.data}/>
                     <Route path={'/people/:single'} render={({match}) => {
-                        return <Person {...match} data={this.props.data}/>
+                        return <Person {...match} people={this.props.data}/>
                     }}/>
                 </div>
             )

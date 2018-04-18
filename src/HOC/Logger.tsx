@@ -6,7 +6,7 @@ export namespace HOC {
 
         return class pp extends React.Component {
             render() {
-                console.log('hoc props: ', rest[0]);
+                console.log('hoc props: ', this.props);
                 return <WrappedComponent {...this.props}/>
             }
         }

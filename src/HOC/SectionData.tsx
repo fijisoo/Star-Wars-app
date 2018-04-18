@@ -1,9 +1,10 @@
 import React from 'react';
+import _ from 'lodash';
 import { Utils } from '../utils/Utils';
 
 export namespace FetchData {
-    export function passComponent(WrappedComponent, ...rest) {
 
+    export function passComponent(WrappedComponent, search) {
         interface Props {
 
         }
@@ -17,15 +18,27 @@ export namespace FetchData {
             constructor(props) {
                 super(props);
                 this.state = {
-                    data: [{}],
+                    data: [],
                     isLoaded: false
                 }
             }
 
-            componentDidMount(){
-                Utils.fetchData(rest[0]).then((data)=>{
-                    this.setState({data: data.results, isLoaded: true});
-                })
+            componentDidMount() {
+                let costam = (callback, counter) => {
+                    callback.then((data) => {
+                        let newData = _.cloneDeep(this.state.data);
+                        newData = [...newData, ...data.results];
+                        this.setState({data: newData});
+                        if (data.next) {
+                            counter++;
+                            let newSearch = search + `/?page=${counter}`;
+                            costam(Utils.fetchData(newSearch),counter);
+                        }else{
+                            this.setState({isLoaded: true});
+                        }
+                    })
+                }
+                costam(Utils.fetchData(search), 1);
             }
 
             render() {

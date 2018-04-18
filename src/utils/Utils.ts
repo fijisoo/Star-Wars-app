@@ -12,7 +12,7 @@ export namespace Utils {
     export function getSectionData(data, match) {
         console.log('UTILS GET SECTION DATA DATA: ', data, ' MATCH: ', match)
         return data.filter((data2) => {
-            if (data2.title == match.single || data2.name == match.single) {
+            if (data2.title == decodeURIComponent(match.single) || data2.name == decodeURIComponent(match.single)) {
                 return data2;
             }
         })

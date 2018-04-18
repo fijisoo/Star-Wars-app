@@ -1,12 +1,23 @@
 import React from 'react';
-import { HOC } from '../../HOC/Logger'
+import Links from './LinkToSingle';
+import { FetchData } from './../../HOC/SectionData';
+import { Route } from 'react-router-dom';
+import SingleStarship from './SingleStarship/SingleStarship'
 
 const Starships = (props) => {
     return (
         <div>
-            <p>Starships works!</p>
+            <Links starships={props.data}/>
+            <Route
+                path={'/starships/:single'}
+                render={({match}) => {
+                    return (
+                        <SingleStarship {...match} starships={props.data}/>
+                    )
+                }}
+            />
         </div>
     )
 }
 
-export default HOC.ppHOC(Starships);
+export default FetchData.passComponent(Starships, 'starships');

@@ -4,26 +4,13 @@ import LinkToSingle from './LinkToSingle';
 import SingleFilm from './SingleFilm/SingleFilm';
 import { FetchData } from '../../HOC/SectionData';
 
-// interface Props {
-//     data: {
-//         count: number,
-//         next: number,
-//         previous: number,
-//         results: {}[]
-//     }
-// }
-//
-// interface State {
-//
-// }
-
 const Films = (props) => {
     return (
         <div>
             <p>Films works!</p>
-            <LinkToSingle filmsNames={props.data}/>
+            <LinkToSingle films={props.data}/>
             <Route path={'/films/:single'} render={({match}) => {
-                return (<SingleFilm {...match} data={props.data}/>)
+                return (<SingleFilm {...match} films={props.data}/>)
             }}/>
         </div>
     )

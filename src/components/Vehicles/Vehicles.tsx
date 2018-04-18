@@ -1,12 +1,22 @@
 import React from 'react';
-import { HOC } from '../../HOC/Logger'
+import Links from './LinkToSingle';
+import SingleVehicle from './SingleVehicle/SingleVehicle';
+import { FetchData } from '../../HOC/SectionData';
+import { Route } from 'react-router-dom';
 
 const Vehicles = (props) =>{
     return (
         <div>
             <p>Vehicles works!</p>
+            <Links vehicles={props.data}/>
+            <Route path={'/vehicles/:single'} render={({match})=>{
+            return (
+                <SingleVehicle {...match} vehicles={props.data} />
+            )
+            }
+            }/>
         </div>
     )
 }
 
-export default HOC.ppHOC(Vehicles);
+export default FetchData.passComponent(Vehicles, 'vehicles');
