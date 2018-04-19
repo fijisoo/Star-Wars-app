@@ -1,8 +1,8 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom';
-import LinkToSingle from './LinkToSingle';
-import SingleFilm from './SingleFilm/SingleFilm';
+import { Route } from 'react-router-dom';
 import { FetchData } from '../../HOC/SectionData';
+import SingleFilm from './SingleFilm/SingleFilm';
+import LinkToSingle from './LinkToSingle';
 
 const Films = (props) => {
     return (

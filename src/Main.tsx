@@ -9,27 +9,14 @@ import Vehicles from './components/Vehicles/Vehicles';
 import Links from './Links';
 import StartPage from './components/StartPage/StartPage';
 
-interface Props {
-
-}
-
-interface State {
-
-}
-
-class Main extends React.Component<Props, State> {
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
+const Main = (props) => {
         return (
             <Router>
                 <div>
                     <Links />
                     <Route exact path={'/'} component={StartPage} />
                     <Route replace path={"/films"} component={Films} />
-                    <Route replace path={"/people"} render={({match}) => <People {...match} costam={'costam_data'}/>}/>
+                    <Route replace path={"/people"} render={({match}) => <People {...match}/>}/>
                     <Route replace path={"/planets"} component={Planets}/>
                     <Route replace path={"/species"} component={Species}/>
                     <Route replace path={"/starships"} component={Starships}/>
@@ -37,7 +24,6 @@ class Main extends React.Component<Props, State> {
                 </div>
             </Router>
         )
-    }
 }
 
 export default Main;

@@ -1,13 +1,13 @@
 import React from 'react';
-import Links from './LinkToSingle';
-import { FetchData } from './../../HOC/SectionData';
 import { Route } from 'react-router-dom';
+import { FetchData } from './../../HOC/SectionData';
 import SingleStarship from './SingleStarship/SingleStarship'
+import LinkToSingle from './LinkToSingle';
 
 const Starships = (props) => {
     return (
         <div>
-            <Links starships={props.data}/>
+            <LinkToSingle starships={props.data}/>
             <Route
                 path={'/starships/:single'}
                 render={({match}) => {

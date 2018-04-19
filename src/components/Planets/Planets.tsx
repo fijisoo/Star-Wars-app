@@ -1,9 +1,8 @@
 import React from 'react';
-import SinglePlanet from './SinglePlanet/SinglePlanet'
-import { Router, Route, NavLink } from 'react-router-dom';
-import LinkToSingle from './LinkToSingle';
-import { HOC } from '../../HOC/Logger';
+import { Route } from 'react-router-dom';
 import { FetchData } from '../../HOC/SectionData';
+import SinglePlanet from './SinglePlanet/SinglePlanet'
+import LinkToSingle from './LinkToSingle';
 
 const Planets = (props) => {
     console.log('PLANETS PROPS: ', props);

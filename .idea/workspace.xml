@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a690177-0518-4004-b3a1-c6b8e0971cc5" name="Default" comment="get the architecture! &#10;films and poeple kinda works.">
-      <change afterPath="$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Species/SingleSpecies.tsx/SingleSpecies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Starships/SingleStarship/SingleStarship.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Vehicles/SingleVehicle/SingleVehicle.tsx" afterDir="false" />
+    <list default="true" id="7a690177-0518-4004-b3a1-c6b8e0971cc5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOC/Images.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HOC/Images.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOC/Logger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HOC/Logger.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HOC/SectionData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/HOC/SectionData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Films/Films.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Films/Films.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/People/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/People/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/People/People.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/People/People.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/People/Person/Person.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/People/Person/Person.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Planets/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planets/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Planets/Planets.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planets/Planets.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Planets/SinglePlanet/SinglePlanet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Planets/SinglePlanet/SinglePlanet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Species/Species.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Species/Species.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Starships/Starships.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Starships/Starships.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Utils.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,116 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Person.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/People/Person/Person.tsx">
+      <file leaf-file-name="SingleFilm.tsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkToSingle.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Films.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Films/Films.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="People.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/People/People.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleStarship.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Starships/SingleStarship/SingleStarship.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/utils/Utils.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SectionData.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/HOC/SectionData.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleVehicle.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Vehicles/SingleVehicle/SingleVehicle.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vehicles.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkToSingle.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/People/LinkToSingle.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="85" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="85" />
+            <state relative-caret-position="306">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -190,31 +77,32 @@
         <option value="$PROJECT_DIR$/serv/s" />
         <option value="$PROJECT_DIR$/serv/s.js" />
         <option value="$PROJECT_DIR$/serv/serv.js" />
-        <option value="$PROJECT_DIR$/src/Main.tsx" />
         <option value="$PROJECT_DIR$/src/HOC/HOCSWApi.tsx" />
         <option value="$PROJECT_DIR$/src/HOC/FetchImage.tsx" />
         <option value="$PROJECT_DIR$/src/HOC/Logger.tsx" />
         <option value="$PROJECT_DIR$/src/HOC/Images.tsx" />
-        <option value="$PROJECT_DIR$/src/components/People/People.tsx" />
         <option value="$PROJECT_DIR$/src/components/People/Person/Person.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Planets/Planets.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Films/Films.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Species/Species.tsx" />
         <option value="$PROJECT_DIR$/src/components/Starships/SingleStarship/SingleStarship.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Starships/Starships.tsx" />
         <option value="$PROJECT_DIR$/src/components/Species/SingleSpecies.tsx/SingleSpecies.tsx" />
         <option value="$PROJECT_DIR$/src/components/Planets/SinglePlanet/SinglePlanet.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx" />
         <option value="$PROJECT_DIR$/src/components/Vehicles/SingleVehicle/SingleVehicle.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx" />
-        <option value="$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx" />
+        <option value="$PROJECT_DIR$/src/utils/Utils.ts" />
+        <option value="$PROJECT_DIR$/src/HOC/SectionData.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Films/LinkRouter.tsx" />
         <option value="$PROJECT_DIR$/src/components/Planets/LinkToSingle.tsx" />
         <option value="$PROJECT_DIR$/src/components/People/LinkToSingle.tsx" />
         <option value="$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx" />
-        <option value="$PROJECT_DIR$/src/utils/Utils.ts" />
-        <option value="$PROJECT_DIR$/src/HOC/SectionData.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx" />
+        <option value="$PROJECT_DIR$/src/Main.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Species/Species.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Planets/Planets.tsx" />
+        <option value="$PROJECT_DIR$/src/components/People/People.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Films/Films.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Starships/Starships.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx" />
       </list>
     </option>
   </component>
@@ -241,17 +129,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
               <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="serv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
@@ -279,105 +163,10 @@
               <item name="Films" type="462c0819:PsiDirectoryNode" />
               <item name="SingleFilm" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="People" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="People" type="462c0819:PsiDirectoryNode" />
-              <item name="Person" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Planets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Planets" type="462c0819:PsiDirectoryNode" />
-              <item name="SinglePlanet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Species" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Species" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleSpecies.tsx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Starships" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Starships" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleStarship" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="StartPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Vehicles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Vehicles" type="462c0819:PsiDirectoryNode" />
-              <item name="SingleVehicle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="HOC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="React-SW" type="b2602c69:ProjectViewProjectNode" />
-              <item name="React-SW" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -428,7 +217,8 @@
       <workItem from="1523600245052" duration="23758000" />
       <workItem from="1523864784562" duration="23763000" />
       <workItem from="1523954092126" duration="24975000" />
-      <workItem from="1524036590124" duration="19318000" />
+      <workItem from="1524036590124" duration="19963000" />
+      <workItem from="1524122401381" duration="10197000" />
     </task>
     <task id="LOCAL-00001" summary="workin">
       <created>1523892984204</created>
@@ -444,15 +234,21 @@
       <option name="project" value="LOCAL" />
       <updated>1523983399828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="gotcha all data from api.&#10;need to add local storage or smth..">
+      <created>1524063224325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524063224325</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109492000" />
+    <option name="totallyTimeSpent" value="120334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -483,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="workin" />
     <MESSAGE value="get the architecture! &#10;films and poeple kinda works." />
-    <option name="LAST_COMMIT_MESSAGE" value="get the architecture! &#10;films and poeple kinda works." />
+    <MESSAGE value="gotcha all data from api.&#10;need to add local storage or smth.." />
+    <option name="LAST_COMMIT_MESSAGE" value="gotcha all data from api.&#10;need to add local storage or smth.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,13 +288,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/HOC/SectionData.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HOC/Logger.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -519,9 +309,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="50" column="43" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,9 +373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
           <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,9 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,16 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="90" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/HOC/Images.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -779,160 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Species/Species.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Planets/Planets.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="84" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="101" selection-start-line="7" selection-start-column="101" selection-end-line="7" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Planets/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="89" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Starships/Starships.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/People/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Vehicles/SingleVehicle/SingleVehicle.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="51">
           <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Starships/SingleStarship/SingleStarship.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/People/People.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/People/Person/Person.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Films/Films.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -942,14 +560,166 @@
     <entry file="file://$PROJECT_DIR$/src/utils/Utils.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Starships/SingleStarship/SingleStarship.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HOC/SectionData.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/People/Person/Person.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Planets/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/People/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Species/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Films/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Planets/Planets.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/People/People.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Species/Species.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Starships/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Starships/Starships.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vehicles/LinkToSingle.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Vehicles/Vehicles.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Films/Films.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="2259" column="12" selection-start-line="2259" selection-start-column="12" selection-end-line="2259" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Films/SingleFilm/SingleFilm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

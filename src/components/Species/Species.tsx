@@ -1,8 +1,9 @@
 import React from 'react';
-import { FetchData } from '../../HOC/SectionData';
-import LinkToSingle from '../Species/LinkToSingle';
-import SingleSpecies from './SingleSpecies.tsx/SingleSpecies';
 import { Route } from 'react-router-dom';
+import { FetchData } from '../../HOC/SectionData';
+import SingleSpecies from './SingleSpecies.tsx/SingleSpecies';
+import LinkToSingle from '../Species/LinkToSingle';
+
 const Species = (props) => {
     console.log('SPECIES PROPS: ', props);
     return (

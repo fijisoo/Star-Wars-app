@@ -1,20 +1,22 @@
 import React from 'react';
-import Links from './LinkToSingle';
-import SingleVehicle from './SingleVehicle/SingleVehicle';
-import { FetchData } from '../../HOC/SectionData';
 import { Route } from 'react-router-dom';
+import { FetchData } from '../../HOC/SectionData';
+import SingleVehicle from './SingleVehicle/SingleVehicle';
+import LinkToSingle from './LinkToSingle';
 
-const Vehicles = (props) =>{
+const Vehicles = (props) => {
     return (
         <div>
             <p>Vehicles works!</p>
-            <Links vehicles={props.data}/>
-            <Route path={'/vehicles/:single'} render={({match})=>{
-            return (
-                <SingleVehicle {...match} vehicles={props.data} />
-            )
-            }
-            }/>
+            <LinkToSingle vehicles={props.data}/>
+            <Route
+                path={'/vehicles/:single'}
+                render={({match}) => {
+                    return (
+                        <SingleVehicle {...match} vehicles={props.data}/>
+                    )
+                }
+                }/>
         </div>
     )
 }
